@@ -45,10 +45,12 @@ function getBackgroundImage(weatherDescription) {
             return 'cloudy.jpg';
         case 'shower rain':
         case 'rain':
+        case 'light rain':
             return 'rainy.jpg';
         case 'thunderstorm':
             return 'thunderstorm.jpg';
         case 'snow':
+        case 'light snow':
             return 'snow.jpg';
         case 'mist':
             return 'mist.jpg';
