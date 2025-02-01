@@ -1,5 +1,5 @@
 function getWeather() {
-    const apiKey = '<your API key'; 
+    const apiKey = '<your API key>'; 
     const city = document.getElementById('cityInput').value;
 
     if (city === '') {
